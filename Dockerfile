@@ -12,7 +12,7 @@ RUN apk --update add  \
 
 RUN apk --update add \
     php7-pdo_mysql php7-mysqlnd php7-mysqli php7-sqlite3 php7-pdo_sqlite \
-    php7-common php7-gmagick php7-session php7-json php7-zlib php7-xml php7-pdo \
+    php7-common  php7-session php7-json php7-zlib php7-xml php7-pdo \
     php7-gd php7-curl php7-opcache php7-ctype php7-mbstring php7-soap \
     php7-intl php7-bcmath php7-dom php7-xmlreader php7-phar php7-openssl \
     --repository http://dl-cdn.alpinelinux.org/alpine/edge/community
